@@ -10,7 +10,7 @@ pytest-aioresponses
     :target: https://pypi.org/project/pytest-aioresponses
     :alt: Python versions
 
-py.test integration for aioresponses
+An integration of `aioresponses`_ for `py.test`_ similar to `pytest-responses`_
 
 ----
 
@@ -67,3 +67,6 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 .. _`tox`: https://tox.readthedocs.io/en/latest/
 .. _`pip`: https://pypi.org/project/pip/
 .. _`PyPI`: https://pypi.org/project/pytest-aioresponses/
+.. _`aioresponses`: https://pypi.org/project/aioresponses/
+.. _`pytest-responses`: https://pypi.org/project/pytest-responses/
+.. _`py.test`: https://pypi.org/project/pytest/
