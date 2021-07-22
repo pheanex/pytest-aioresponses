@@ -30,7 +30,7 @@ include = ["pytest_aioresponses.py"]
 [tool.poetry.dependencies]
 python = "^3.6"
 pytest = ">=3.5.0"
-pytest-asyncio = "^0.14.0"
+pytest-asyncio = ">=0.14.0"
 aioresponses = "^0.7.1"
 
 [tool.poetry.dev-dependencies]
