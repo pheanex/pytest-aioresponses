@@ -1,0 +1,9 @@
+=========
+Changelog
+=========
+
+0.2.0
+------------
+
+- Update the dependency to pytest-asyncio
+- Add Python 3.9

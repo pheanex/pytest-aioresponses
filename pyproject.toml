@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytest-aioresponses"
-version = "0.1.0"
+version = "0.2.0"
 description = "py.test integration for aioresponses"
 authors = ["Konstantin Manna <Konstantin@Manna.uno>"]
 license = "MIT"
@@ -19,6 +19,7 @@ classifiers = [
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3 :: Only',
     'Programming Language :: Python :: Implementation :: CPython',
     'Programming Language :: Python :: Implementation :: PyPy',
