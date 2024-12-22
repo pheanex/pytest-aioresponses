@@ -33,15 +33,15 @@ classifiers = [
 include = ["pytest_aioresponses.py"]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.9"
 pytest = ">=3.5.0"
 pytest-asyncio = ">=0.14.0"
 aioresponses = "^0.7.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.1"
-flake8 = "^3.8.4"
-pylint = "^2.6.0"
+pytest = "^8.3.4"
+flake8 = "^7.1.1"
+pylint = "^3.3.2"
 
 [tool.poetry.plugins.pytest11]
 aioresponses = "pytest_aioresponses"
