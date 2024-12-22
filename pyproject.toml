@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytest-aioresponses"
-version = "0.2.0"
+version = "0.3.0"
 description = "py.test integration for aioresponses"
 authors = ["Konstantin Manna <Konstantin@Manna.uno>"]
 license = "MIT"
