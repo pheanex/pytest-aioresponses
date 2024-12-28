@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytest-aioresponses"
-version = "0.2.0"
+version = "0.3.0"
 description = "py.test integration for aioresponses"
 authors = ["Konstantin Manna <Konstantin@Manna.uno>"]
 license = "MIT"
@@ -20,6 +20,10 @@ classifiers = [
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
     'Programming Language :: Python :: 3 :: Only',
     'Programming Language :: Python :: Implementation :: CPython',
     'Programming Language :: Python :: Implementation :: PyPy',
@@ -31,7 +35,6 @@ include = ["pytest_aioresponses.py"]
 [tool.poetry.dependencies]
 python = "^3.6"
 pytest = ">=3.5.0"
-pytest-asyncio = ">=0.14.0"
 aioresponses = "^0.7.1"
 
 [tool.poetry.dev-dependencies]
@@ -50,4 +53,3 @@ disable = [
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
-
